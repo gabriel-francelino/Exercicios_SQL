@@ -2,7 +2,7 @@
 create database empresa;
 use empresa;
 */
-drop table if exists DEPARTAMENTO, EMPREGADO;
+drop table if exists DEPARTAMENTO, EMPREGADO, PROJETO, DEPENDENTE, DEPTO_LOCALIZACOES, TRABALHA_EM;
 
 
 create table DEPARTAMENTO (
